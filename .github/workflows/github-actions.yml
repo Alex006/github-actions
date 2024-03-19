@@ -8,7 +8,4 @@ jobs:
         steps:
             - uses: actions/checkout@v2
             - name: Shutting down API's
-              run: |
-                echo "Running job"
-                chmod +x apis-shutdown.sh
-                ./apis-shutdown.sh
+              run: echo "Running job"
