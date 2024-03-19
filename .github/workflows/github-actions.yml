@@ -11,4 +11,4 @@ jobs:
               run: |
                 echo "Running job"
                 chmod +x apis-shutdown.sh
-                ./apis-shutdowns.sh
+                ./apis-shutdown.sh
