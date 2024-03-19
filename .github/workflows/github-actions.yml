@@ -1,11 +1,14 @@
-name: Create test for cron job
+name: Cron job for shutting down the APIs
 on:
     schedule:
-        - cron: "*/5 * * * *"
+        - cron: "*/1 * * * *"
 jobs:
     report:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v2
-            - name: Creates a test for cron job
-              run: echo "Running job right now"
+            - name: Shutting down API's
+              run: |
+                echo "Running job"
+                chmod +x apis-shutdown-sh
+                ./apis-shutdowns-sh
