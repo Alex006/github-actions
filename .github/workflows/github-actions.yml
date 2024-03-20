@@ -1,4 +1,4 @@
-name: Cron job for shutting down the APIs
+name: Cron job for shutting down the APIs2
 on:
     push:
     schedule:
