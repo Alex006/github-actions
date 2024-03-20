@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "***SIMULATING SHUTTING DOWN APIS SCRIPT***"
+echo "***SIMULATING SHUTTING DOWN APIS SCRIPT $(date)***"
