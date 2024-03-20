@@ -1,5 +1,6 @@
 name: Cron job for shutting down the APIs
 on:
+    push:
     schedule:
         - cron: "*/1 * * * *"
 jobs:
