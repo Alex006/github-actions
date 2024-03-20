@@ -15,4 +15,4 @@ jobs:
                 echo $PWD
                 cd configuration
                 chmod +x apis-shutdown.sh
-                ./configuration/apis-shutdown.sh
+                ./apis-shutdown.sh
