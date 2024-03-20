@@ -13,6 +13,5 @@ jobs:
               run: |
                 echo "Running job"
                 echo $PWD
-                cd \\configuration
-                chmod +x apis-shutdown.sh
+                chmod +x configuration\\apis-shutdown.sh
                 ./configuration/apis-shutdown.sh
