@@ -12,5 +12,5 @@ jobs:
             - name: Shutting down API's
               run: |
                 echo "Running job"
-                chmod +x apis-shutdown.sh
+                chmod +x /configuration/apis-shutdown.sh
                 ./configuration/apis-shutdown.sh
